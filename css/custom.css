@@ -1,0 +1,130 @@
+#home{
+	/* background-image: url(../img/background.jpg) !important; */
+	/* background-color: red !important; */
+
+	 background: url(../img/1.png) no-repeat center center fixed; 
+	/* background-image: url(../img/background.jpg); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	min-height: 100vh;
+}
+
+.home_lead{
+	background: rgba(0, 151, 19, 0.8);
+	padding: 25px;
+}
+
+.home_lead h2{
+	position: relative;
+	font-family: 'Montserrat', serif;
+}
+
+.home_lead p{
+	position: relative;
+	font-family: 'Montserrat', serif;
+}
+
+
+.home_lead:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.25);
+}
+
+#mainNav{
+	/* background: white !important; */
+}
+
+a.nav-link{
+	/* color: #000 !important */
+}
+
+#navbarResponsive{
+	justify-content: center !important;
+}
+
+.home_btn{
+	position: relative;
+	color: #fff;
+}
+
+.nav-item a{
+	text-transform: uppercase;
+}
+
+.about-text h2{
+	text-transform: uppercase;
+	color: #073C75;
+	font-family: 'Montserrat', serif;
+	font-weight: 600;
+}
+
+.about-text p{
+	font-weight: 400;
+	font-size: 19px;
+	/* line-height: 27px; */
+	font-family: 'Montserrat', serif;
+	color: #16484E;
+}
+
+.about-logo{
+	text-align: center;
+}
+
+.hr{
+	height: 39px;
+	background: #012744;
+}
+
+.services .img{
+	background: linear-gradient(180deg, #045E13 0%, #003008 100%);
+	/* position: absolute; */
+width: 515px;
+height: 300px;
+left: 0px;
+top: 50px;
+}
+
+
+.service li{
+	color: #045E13;
+	font-family: 'Montserrat', serif;
+	font-size: small;
+}
+
+.services_text h2{
+	font-family: 'Montserrat', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 29px;
+	color: #045E13;
+}
+.services_text2 h2{
+	font-family: 'Montserrat', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 29px;
+	color: #0848A7;
+}
+
+.services2 .img{
+	background:  linear-gradient(180deg, #0848A7 0%, #02275E 100%);;
+	width: 515px;
+	height: 300px;
+	left: 0px;
+	top: 50px;
+}
+
+.service2 li{
+	color: #0848A7;
+	font-family: 'Montserrat', serif;
+	font-size: small;
+}
